@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px black;
+            background-color: gray;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            animation: rainbowBG .5s linear 0s infinite reverse ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            padding-top: 30vh;
+        }
+
+        @keyframes rainbowBG {
+            0% {background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);}
+            16% {background-image: radial-gradient(orange, yellow, green, blue, indigo, violet, red);}
+            32% {background-image: radial-gradient( yellow, green, blue, indigo, violet, red, orange);}
+            48% {background-image: radial-gradient( green, blue, indigo, violet, red, orange, yellow);}
+            64% {background-image: radial-gradient( blue, indigo, violet, red, orange, yellow, green);}
+            80% {background-image: radial-gradient( indigo, violet, red, orange, yellow, green, blue);}
+            96% {background-image: radial-gradient( violet, red, orange, yellow, green, blue, indigo);}
+            100% {background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);}
+        }
+    </style>
+</head>
+<body>
+        <h1>My name is Eugene Mark Korku Barasu</h1>
+</body>
+</html>
